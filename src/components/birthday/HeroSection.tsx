@@ -116,8 +116,8 @@ const HeroSection = () => {
           <img
             src={carYellow}
             alt="Yellow toy race car"
-            className="absolute bottom-5 h-14 sm:h-16 animate-drive-back drop-shadow-[0_8px_10px_rgba(0,0,0,0.4)]"
-            style={{ animationDuration: "12s", animationDelay: "1s" }}
+            className="absolute bottom-5 h-14 sm:h-16 animate-drive-across drop-shadow-[0_8px_10px_rgba(0,0,0,0.4)]"
+            style={{ animationDuration: "12s", animationDelay: "4s" }}
           />
         </div>
       </div>
