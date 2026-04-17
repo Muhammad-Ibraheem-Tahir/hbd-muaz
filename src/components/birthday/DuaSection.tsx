@@ -45,6 +45,7 @@ const DuaSection = () => {
 
   return (
     <section
+      id="dua"
       ref={ref}
       className="relative py-24 overflow-hidden"
       style={{
