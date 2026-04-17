@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import HeroSection from "@/components/birthday/HeroSection";
-import GallerySection from "@/components/birthday/GallerySection";
 import MessageSection from "@/components/birthday/MessageSection";
 import FunSection from "@/components/birthday/FunSection";
 import SurpriseSection from "@/components/birthday/SurpriseSection";
@@ -33,7 +32,6 @@ const Index = () => {
   return (
     <main>
       <HeroSection />
-      <GallerySection />
       <MessageSection />
       <FunSection />
       <SurpriseSection />
