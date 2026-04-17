@@ -10,8 +10,8 @@ const Index = () => {
   useReveal();
 
   useEffect(() => {
-    document.title = "Happy Birthday Muaz 🚗💨 | A Race-Day Surprise";
-    const desc = "A bright, racing-themed birthday surprise for Muaz — photos, messages, and a magical finale from his family.";
+    document.title = "Happy Birthday Muaaz 🚗💨 | A Race-Day Surprise";
+    const desc = "A bright, racing-themed birthday surprise for Muaaz — heartfelt messages and a magical finale from his family.";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement("meta");
