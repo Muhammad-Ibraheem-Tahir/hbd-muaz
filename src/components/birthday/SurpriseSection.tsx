@@ -45,7 +45,7 @@ const SurpriseSection = () => {
                   You're officially the COOLEST birthday boy on the planet 🌍✨
                 </h3>
                 <p className="mt-4 text-lg text-foreground/80">
-                  Now go grab the biggest slice of cake — that's an order from us! 🎂🏁
+                  Now go grab the biggest slice of cake  🎂🏁
                 </p>
               </div>
             </div>
