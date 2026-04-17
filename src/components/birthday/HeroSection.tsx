@@ -45,6 +45,26 @@ const HeroSection = () => {
         ))}
       </div>
 
+      {/* Floating Pokémon buddies */}
+      <div className="pointer-events-none absolute inset-0">
+        {[
+          { e: "⚡", t: "12%", l: "8%", d: "0s" },
+          { e: "🔥", t: "20%", l: "85%", d: "0.5s" },
+          { e: "💧", t: "55%", l: "5%", d: "1s" },
+          { e: "🌿", t: "65%", l: "90%", d: "1.5s" },
+          { e: "⭐", t: "8%", l: "55%", d: "0.8s" },
+          { e: "🎈", t: "40%", l: "75%", d: "1.2s" },
+        ].map((p, i) => (
+          <span
+            key={i}
+            className="absolute text-4xl sm:text-5xl animate-bounce-soft drop-shadow-lg"
+            style={{ top: p.t, left: p.l, animationDelay: p.d }}
+          >
+            {p.e}
+          </span>
+        ))}
+      </div>
+
       <div className="container relative z-10 flex min-h-screen flex-col items-center justify-center text-center pt-16 pb-40">
         <div className="inline-block rounded-full bg-secondary px-5 py-2 text-sm font-bold uppercase tracking-wider text-secondary-foreground shadow-card animate-wiggle">
           🏁 Start your engines 🏁
@@ -65,7 +85,7 @@ const HeroSection = () => {
         </p>
 
         <a
-          href="#gallery"
+          href="#dua"
           className="mt-10 inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-bold text-primary-foreground shadow-pop transition-transform hover:-translate-y-1 active:translate-y-0 animate-float-up [animation-delay:0.7s]"
         >
           Let's Race! 🏎️

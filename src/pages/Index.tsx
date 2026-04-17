@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import HeroSection from "@/components/birthday/HeroSection";
 import MessageSection from "@/components/birthday/MessageSection";
 import FunSection from "@/components/birthday/FunSection";
-import PokemonSection from "@/components/birthday/PokemonSection";
+import DuaSection from "@/components/birthday/DuaSection";
 import CakeSection from "@/components/birthday/CakeSection";
 import SurpriseSection from "@/components/birthday/SurpriseSection";
 import FinaleSection from "@/components/birthday/FinaleSection";
@@ -35,7 +35,7 @@ const Index = () => {
     <main>
       <HeroSection />
       <MessageSection />
-      <PokemonSection />
+      <DuaSection />
       <CakeSection />
       <FunSection />
       <SurpriseSection />
