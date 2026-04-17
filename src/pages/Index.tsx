@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import HeroSection from "@/components/birthday/HeroSection";
 import MessageSection from "@/components/birthday/MessageSection";
 import FunSection from "@/components/birthday/FunSection";
+import PokemonSection from "@/components/birthday/PokemonSection";
+import CakeSection from "@/components/birthday/CakeSection";
 import SurpriseSection from "@/components/birthday/SurpriseSection";
 import FinaleSection from "@/components/birthday/FinaleSection";
 import { useReveal } from "@/hooks/useReveal";
@@ -33,6 +35,8 @@ const Index = () => {
     <main>
       <HeroSection />
       <MessageSection />
+      <PokemonSection />
+      <CakeSection />
       <FunSection />
       <SurpriseSection />
       <FinaleSection />
