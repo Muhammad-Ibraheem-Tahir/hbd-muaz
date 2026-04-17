@@ -85,30 +85,20 @@ const DuaSection = () => {
           </p>
         </div>
 
-        <div className="mt-12 grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {DUAS.map((d, i) => (
             <div
               key={i}
               className={`${i % 2 === 0 ? "reveal-left" : "reveal-right"} group rounded-3xl bg-card p-7 shadow-card border-4 border-foreground/10 hover:-translate-y-2 hover:border-primary/40 transition-all duration-300`}
-              style={{
-                transitionDelay: `${i * 120}ms`,
-                opacity: visible ? undefined : undefined,
-              }}
+              style={{ transitionDelay: `${i * 100}ms` }}
             >
-              <p
-                dir="rtl"
-                lang="ar"
-                className="text-3xl sm:text-4xl text-primary leading-loose font-bold text-center"
-                style={{ fontFamily: "'Amiri', 'Scheherazade New', serif" }}
-              >
-                {d.arabic}
-              </p>
-              <p className="mt-3 text-center text-sm uppercase tracking-wider text-muted-foreground font-bold">
-                {d.translit}
-              </p>
-              <p className="mt-2 text-center text-foreground/80 leading-relaxed">
-                {d.meaning}
-              </p>
+              <div className="text-5xl mb-3 inline-block group-hover:animate-wiggle">
+                {d.emoji}
+              </div>
+              <h3 className="font-display text-xl text-primary mb-2">
+                {d.title}
+              </h3>
+              <p className="text-foreground/75 leading-relaxed">{d.text}</p>
             </div>
           ))}
         </div>
