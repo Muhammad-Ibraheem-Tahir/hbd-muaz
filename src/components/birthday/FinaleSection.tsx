@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
-const LINE_1 = "Made with ❤️ for Muaz";
+const LINE_1 = "Made with ❤️ for Muaaz";
 const LINE_2 = "From Nano, Tahir, Asma, Ibraheem, Huriza & Ismail 💖";
 
 const FinaleSection = () => {

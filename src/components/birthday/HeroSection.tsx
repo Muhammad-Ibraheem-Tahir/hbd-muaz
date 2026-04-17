@@ -55,7 +55,7 @@ const HeroSection = () => {
           <span className="inline-block animate-float-up [animation-delay:0.15s]">Birthday</span>
           <br />
           <span className="inline-block bg-gradient-fire bg-clip-text text-transparent text-stroke-light animate-float-up [animation-delay:0.3s]">
-            MUAZ
+            MUAAZ
           </span>
           <span className="inline-block animate-bounce-soft ml-3">🚗💨</span>
         </h1>

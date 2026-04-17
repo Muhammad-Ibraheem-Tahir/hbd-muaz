@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const MESSAGE =
-  "Muaz, you're the fastest, funniest, and bravest little racer we know. May your year be filled with zooming adventures, giant cakes, endless giggles, and dreams that go vroom! 🏎️💨🎂";
+  "Muaaz, you're the fastest, kindest, and bravest little racer we know. May your year be filled with zooming adventures, giant cakes, endless giggles, and dreams that go vroom! 🏎️💨🎂";
 
 const MessageSection = () => {
   const ref = useRef<HTMLDivElement>(null);

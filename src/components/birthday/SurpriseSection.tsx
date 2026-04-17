@@ -23,7 +23,7 @@ const SurpriseSection = () => {
           🎁 Surprise Surprise
         </span>
         <h2 className="mt-4 display text-4xl sm:text-6xl text-primary text-stroke-light reveal">
-          A Secret For Muaz
+          A Secret For Muaaz
         </h2>
 
         <div className="mt-12 reveal">

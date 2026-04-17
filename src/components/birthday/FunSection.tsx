@@ -1,10 +1,10 @@
 const moments = [
-  { emoji: "🍕", title: "Pizza Disappear Speedrun", text: "World record: 4.2 seconds. Witnesses: traumatized." },
-  { emoji: "🛏️", title: "Bedtime? Never Heard of Her", text: "Muaz has invented 47 unique reasons to stay up late." },
-  { emoji: "🎮", title: "Pro Gamer Moment", text: "Won the game. Lost the controller. Found it in the fridge." },
-  { emoji: "🦖", title: "Future Dinosaur Expert", text: "Knows more dino names than half his teachers. Fact." },
-  { emoji: "🚗", title: "Car Collection: Infinite", text: "Has more cars than parking spots. Engineers are jealous." },
-  { emoji: "🤣", title: "Comedy Central Muaz", text: "Tells the same joke 12 times. It gets funnier every time." },
+  { emoji: "🎂", title: "Birthday Superstar", text: "Today the whole world spins a little brighter — because it's Muaaz's day!" },
+  { emoji: "🚗", title: "Full Speed Ahead", text: "May this new year zoom by with adventure, laughter, and zero red lights." },
+  { emoji: "⭐", title: "Shine Bright", text: "You light up every room you enter, Muaaz — never stop sparkling." },
+  { emoji: "🏆", title: "Champion Heart", text: "Kind, brave, and full of joy — that's a winning combo right there." },
+  { emoji: "🎁", title: "Gift to Everyone", text: "Having you in our lives is the greatest present we could ever ask for." },
+  { emoji: "🌈", title: "Dream Big", text: "Wishing you a year full of dreams coming true and wishes flying high." },
 ];
 
 const FunSection = () => {
@@ -13,10 +13,10 @@ const FunSection = () => {
       <div className="container relative">
         <div className="text-center reveal">
           <span className="inline-block rounded-full bg-orange px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-orange-foreground">
-            🤪 Bro Moments
+            🎉 Birthday Wishes
           </span>
           <h2 className="mt-4 display text-4xl sm:text-6xl text-accent text-stroke-light">
-            Iconic Muaz Vibes
+            Just For Muaaz
           </h2>
         </div>
 
