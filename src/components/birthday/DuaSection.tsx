@@ -1,26 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 
 const DUAS = [
-  {
-    arabic: "بَارَكَ اللَّهُ لَكَ",
-    translit: "Barakallahu laka",
-    meaning: "May Allah bless you, Muaaz 💖",
-  },
-  {
-    arabic: "اللَّهُمَّ احْفَظْهُ",
-    translit: "Allahumma ihfazhu",
-    meaning: "O Allah, protect him always 🤲",
-  },
-  {
-    arabic: "اللَّهُمَّ زِدْهُ عِلْمًا",
-    translit: "Allahumma zidhu 'ilma",
-    meaning: "O Allah, increase him in knowledge 📚",
-  },
-  {
-    arabic: "جَعَلَكَ اللَّهُ مِنَ الصَّالِحِينَ",
-    translit: "Ja'alaka Allahu min as-salihin",
-    meaning: "May Allah make you among the righteous 🌟",
-  },
+  { emoji: "🌙", title: "May Allah bless you", text: "with a long, happy, healthy life full of laughter and love." },
+  { emoji: "🛡️", title: "May Allah protect you", text: "from every harm and keep you safe wherever you go." },
+  { emoji: "📚", title: "May Allah make you smart", text: "and help you learn cool new things every single day." },
+  { emoji: "💖", title: "May Allah make you kind", text: "with a big heart that loves your family and friends." },
+  { emoji: "🌟", title: "May Allah make you brave", text: "and give you courage to chase all your big dreams." },
+  { emoji: "🎁", title: "May Allah give you joy", text: "on every birthday, every day, and forever after." },
 ];
 
 const DuaSection = () => {
