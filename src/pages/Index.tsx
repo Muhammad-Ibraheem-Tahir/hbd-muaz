@@ -35,6 +35,8 @@ const Index = () => {
     <main>
       <HeroSection />
       <MessageSection />
+      <PokemonSection />
+      <CakeSection />
       <FunSection />
       <SurpriseSection />
       <FinaleSection />
